@@ -1,8 +1,9 @@
 #!/bin/bash
 
+# https://github.com/bergsas/pec-debscripts/
+
 source ./make_package.sh
 
-package_url=http://www.poweredgec.com/files/setupbios-2013-10-03.tgz
 package_url=http://www.poweredgec.com/files/ldstate-2013-11-23.tgz
 #cache_package="`pwd`/cache/ldstate-2013-11-23.tgz"
 
@@ -15,7 +16,6 @@ package_version=0.1
 packager_email="$DEBEMAIL"
 package_maintainer="$DEBFULLNAME"
 package_copyright=blank
-
 
 install_files()
 {

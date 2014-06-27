@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# http://askubuntu.com/questions/27715/create-a-deb-package-from-scripts-or-binaries
+# https://github.com/bergsas/pec-debscripts/
 
 source ./make_package.sh
 
@@ -12,7 +12,6 @@ package_bombed=.
 
 package_name=pec-bmc-tools
 package_version=0.1
-
 
 packager_email="$DEBEMAIL"
 package_maintainer="$DEBFULLNAME"

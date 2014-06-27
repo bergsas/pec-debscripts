@@ -1,9 +1,22 @@
 #!/bin/bash
-# 
-#http://askubuntu.com/questions/27715/create-a-deb-package-from-scripts-or-binaries
+#
+# https://github.com/bergsas/pec-debscripts/
+#   
+# The create process is copied from
+#   http://askubuntu.com/questions/27715/create-a-deb-package-from-scripts-or-binaries
+#
+# I just provide the structure.
+#
+#   -Erlend
+#
+#
+# This script doesn't do anything.
+#
+# The package_* scripts do.
 #
 # Requires at least the following packages:
 #   sudo apt-get install dh-make pbuilder
+#:w
 
 # read variables:
 #   package_url
@@ -13,6 +26,7 @@
 #   packager_email    NOTE THE R: :)
 #   package_maintainer
 #   package_copyright
+#
 
 package_url=
 package_bombed=
