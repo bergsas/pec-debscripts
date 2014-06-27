@@ -13,8 +13,8 @@ package_bombed=setupbios
 package_name=pec-setupbios
 package_version=0.1
 
-packager_email=erlend.bergsaas@met.no
-package_maintainer="Erlend Bergsaas"
+packager_email="$DEBEMAIL"
+package_maintainer="$DEBFULLNAME"
 package_copyright=blank
 
 
