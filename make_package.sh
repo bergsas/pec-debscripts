@@ -76,7 +76,7 @@ use()
 }
 install_files()
 {
-  echo "This fails so bad. heh" 1>&2
+  echo DUMMY
   exit 1
 }
 
@@ -154,5 +154,5 @@ make_package()
     cp ../*.deb "$orig_dir"
   )
   cd "$orig_dir"
-#  [ ! -z "$tmpdir" ] && rm -rf "$tmpdir"
+  [ ! -z "$tmpdir" ] && rm -rf "$tmpdir"
 }
