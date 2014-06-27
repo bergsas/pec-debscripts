@@ -14,8 +14,8 @@ package_name=pec-bmc-tools
 package_version=0.1
 
 
-package_email="$DEBEMAIL"
-packager_maintainer="$DEBFULLNAME"
+packager_email="$DEBEMAIL"
+package_maintainer="$DEBFULLNAME"
 package_copyright=blank
 
 install_files()

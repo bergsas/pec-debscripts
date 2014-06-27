@@ -15,5 +15,8 @@ Set DEBEMAIL and DEBFULLNAME to something real.
 And yes: I realise that this is probably a bad thing. I don't really care.
 I am not going to use this for anything. And neither is you.
 
+This whole stuff outputs a lot of errors. But it produces a deb. Just like the
+link above describes. 
+
 
 -Erlend
