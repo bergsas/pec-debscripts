@@ -16,8 +16,9 @@
 #
 # Requires at least the following packages:
 #   sudo apt-get install dh-make pbuilder
-#:w
+#
 
+#
 # read variables:
 #   package_url
 #   package_bombed
