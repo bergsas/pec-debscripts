@@ -5,7 +5,7 @@
 source ./make_package.sh
 
 package_url=http://www.poweredgec.com/files/setupbios-2013-10-03.tgz
-cache_package="`pwd`/cache/setupbios-2013-10-03.tgz"
+#cache_package="`pwd`/cache/setupbios-2013-10-03.tgz"
 
 # subdir of tarball :/
 package_bombed=setupbios

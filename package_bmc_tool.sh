@@ -5,7 +5,7 @@
 source ./make_package.sh
 
 package_url="http://www.poweredgec.com/files/bmc-2014-01-08.tgz"
-cache_package="`pwd`/cache/bmc-2014-01-08.tgz"
+#cache_package="`pwd`/cache/bmc-2014-01-08.tgz"
 
 # subdir of tarball :/
 package_bombed=.
